@@ -1,22 +1,47 @@
+body, h1, h2, ul, p {
+    margin:0;
+    padding:0;
+    font-family:Open Sans', sans-serif;
+}
+
 .header  {
     background-color:#f9fafc;
  padding: 50px;
+
  
 }
 
-.top {
+.company {
+    text-decoration: none;
     color: #000;
+    font-size:17px
+    
 }
+.title {
+    font-size: 30px;
+    color:#000;
+line-height: 2;
+
+}
+.link {
+    text-decoration: none;
+    color: #69696a;
+   
+}
+
 .lab  {
+   
+    text-decoration: none;
    list-style: none;
    color: #69696a;
 line-height: 28px;
 
-  
 }
 
 body {
-    line-height: 20px;
+    padding:10px;
+    text-decoration: none;
+    line-height: 25px;
    background-color:  #f9fafc;
    color:  #69696a;
    font-family:Open Sans', sans-serif;
@@ -25,10 +50,16 @@ body {
 .line {
     border-left: 3px solid  #69696a;;
   height: 88px;
+padding-left:15px;
+  
+}
+.btn1 {
+    position: relative;
+ top: 7px;   
 }
 .btn1, .btn2 {
    position: relative;
-   top: 3px;
+top: 8px;
 }
 .btn1 , .btn2 {
 
