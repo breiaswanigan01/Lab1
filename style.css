@@ -7,26 +7,32 @@
 .top {
     color: #000;
 }
-.lab {
+.lab  {
    list-style: none;
    color: #69696a;
+line-height: 28px;
 
   
 }
 
 body {
+    line-height: 20px;
    background-color:  #f9fafc;
    color:  #69696a;
    font-family:Open Sans', sans-serif;
 
 }
 .line {
-    border-left: 6px solid  #69696a;;
-  height: 75px;
+    border-left: 3px solid  #69696a;;
+  height: 88px;
 }
-
+.btn1, .btn2 {
+   position: relative;
+   top: 3px;
+}
 .btn1 , .btn2 {
-    color: #fff;
+
+    color: #FFF;
     background-color: #000;
     padding: 12px;
     border-radius: 30px;
