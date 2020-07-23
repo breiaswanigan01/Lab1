@@ -97,7 +97,7 @@ top: 8px;
         }
 
    
-} */
+ } */
 .content {
     display:flex;
     align-content:center;
@@ -116,6 +116,7 @@ top: 8px;
 flex:2;
 bottom: 900px;
 padding-left:700px;
+
 }
 
 .large-circle {
@@ -155,3 +156,4 @@ padding-left:700px;
     top:900px;
     left:700px;
     }
+
